@@ -1,0 +1,135 @@
+.login-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f9fafc;
+}
+
+.login-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e5f7f8;
+  padding: 2rem;
+}
+
+.login-image img {
+  width: 85%; /* changed from max-width 100% to width 85% */
+  max-width: 600px; /* added a nice max width */
+  height: auto;
+  object-fit: contain; /* optional: ensures it scales nicely */
+}
+
+.login-form-container {
+  flex: 1;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+
+
+.login-form-container {
+  flex: 1;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.logo {
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
+p {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.input-field {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #aaa;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #3f8efc;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.login-btn:disabled {
+  background-color: #9bbdfd;
+  cursor: not-allowed;
+}
+
+.form-footer {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.social-icons button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.error-msg {
+  background: #ffe0e0;
+  color: #d8000c;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
